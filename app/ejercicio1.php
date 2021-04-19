@@ -1,6 +1,6 @@
 <?php
 
-	$edad= 15;
+	$edad= 18;
 
 		if ($edad < 18)
 		{
@@ -10,3 +10,5 @@
 		{
 			echo "es mayor de edad";	
 		}	
+?>
+
