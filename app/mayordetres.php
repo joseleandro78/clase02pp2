@@ -10,21 +10,27 @@
 	echo "Numero2: " . $numero2 . "<br>";
 	echo "Numero3: " . $numero3 . "<br><br><br>";
 
-
-	if($numero1 > $numero2) {
-		if($numero1 > $numero3) {
-			echo "El mayor es: " . $numero1;
-
-		} else{
-			echo "El mayor es: " . $numero3;
-
-		}
-	} else if($numero2 > $numero3) {
-		echo "El mayor es: " . $numero2;
-
-	} else{
-		echo "El mayor es: " . $numero3;
+	if ($numero1 > $numero2 && $numero1 > $numero3)
+	{
+		$numMayor= $numero1;
 
 	}
+	else
+	{
+		if ($numero2> $numero3)
+		{
+			$numMayor= $numero2;
+
+		}
+		else
+		{
+			$numMayor= $numero3;
+		}
+
+	}
+	echo "El Numero es: ". $numMayor;
+
+
+	
 
 ?>
