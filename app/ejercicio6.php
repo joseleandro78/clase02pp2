@@ -3,7 +3,7 @@
 	// 6- (SWITCH) En una empresa de viajes me dan la opcion de viajar a Bariloche, 
 	//    Ushuaia o Cataratas, informar si hace frio o calor en la opcion seleccionada. 
 	
-	$destino = rand(1,3); "<br>";
+	$destino = rand(1,3); 
 
 	echo "Destino: ". $destino."<br><br>";
 
